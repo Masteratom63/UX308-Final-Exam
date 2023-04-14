@@ -1,0 +1,71 @@
+export const documentProps = {
+  title: 'Final Exam',
+  description:
+    'consumes functions in src/functions.js and jsx components in components/functions.jsx ',
+};
+import { Hello, Coins, Temp, Gym } from '../components/components.jsx';
+
+# Final Exam
+
+1. Write a function that takes a _name_ as an argument and _returns a string_ that _contains "hello"_ and the name paramerer. Test at least 3 names.
+
+   <Hello />
+
+2. Write a function that calculates the total value of a set of coins in dollars.
+   Each coin is worth:
+
+   nickel: $0.05
+
+   dime: $0.10
+
+   quarter: $0.25
+
+   loonie: $1.00
+
+   toonie: $2.00
+
+   ***
+
+   Parameters:
+
+   nickels - number of nickels
+
+   dimes - number of dimes
+
+   quarters - number of quarters
+
+   loonies - number of loonies
+
+   toonies - number of toonies
+
+   Returns:
+
+   total - total value of coins in dollars
+
+   Write at least 3 tests. Don't forget to test 0.
+
+   <Coins />
+
+3. Write a function that converts temperatures in fahrenheit to celsius. Test at least boiling, freezing water temperatures and room temperature (70).
+
+   <Temp />
+
+4. Write a function that calculates total cost of a gym membership.A member gets a discount according to the number of friends they sign up.
+
+   0 friends: 0% discount
+
+   1 friend: 5% discount
+
+   2 friends: 10% discount
+
+   3 or more friends: 15% discount
+
+   Parameters:
+
+   cost - a gym membership base cost (float > 0)
+
+   friends - number of friends signed up (int >= 0)
+
+   Make sure to test with, 1, 2, 3 and 4 friends.
+   
+   <Gym />
